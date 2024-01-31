@@ -2,13 +2,7 @@ import { FUNCTIONS_CONFIG_MANIFEST } from 'next/dist/shared/lib/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 
-async function getFromKv() {
-  const response = await fetch('http://localhost:3000/api/about', { cache: 'no-cache' })
-  return response.json()
-}
-
-export default async function Home() {
-  const kvValue = await getFromKv()
+export default function Home() {
   return(
     <>
       <header className='bg-[#f9f9f9] p-5 border-b border-[#e9e9e9]'>
