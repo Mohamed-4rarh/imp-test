@@ -14,10 +14,10 @@ if (process.env.NODE_ENV === 'development') {
               // for more details on Bindings see: https://developers.cloudflare.com/pages/functions/bindings/)
               //
               // KV Example:
-              // MY_KV: {
-              //   type: 'kv',
-              //   id: 'xxx',
-              // }
+              domains_structure_01: {
+                type: 'kv',
+                id: 'fb147242d55e497e8c810391b9373443',
+              }
           }
       })
   })
