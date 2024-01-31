@@ -28,7 +28,7 @@ export default async function page() {
         <div className='h-full flex justify-center items-center'>
           <div>
             <h1 className='text-[50px] font-bold'>VAUES FROM THE KV:</h1>
-            <p>The Value of the key <span className='text-[#f9f9f9] bg-[#383838] px-[4px] font-light py-[1px] rounded-md'>mohamed adham</span> is <span className='text-[#f9f9f9] bg-[#383838] px-[4px] font-light py-[1px] rounded-md'>{kvValue}</span> </p>
+            <p>The Value of the key <span className='text-[#f9f9f9] bg-[#383838] px-[4px] font-light py-[1px] rounded-md'>user-name</span> is <span className='text-[#f9f9f9] bg-[#383838] px-[4px] font-light py-[1px] rounded-md'>{kvValue}</span> </p>
             <Link href={'/'} className='p-3 text-[24px] font-medium border rounded-lg transition hover:scale-105 border-[#e9e9e9] bg-[#f9f9f9] flex w-fit mx-auto mt-10'>Back Home</Link>
           </div>
         </div>
