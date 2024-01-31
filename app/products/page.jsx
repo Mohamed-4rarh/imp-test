@@ -3,7 +3,7 @@ import React from 'react'
 
 export const runtime = 'edge'
 async function getProducts() {
-    const response = await fetch('http://localhost:3000/api/products', { cache: 'no-cache' })
+    const response = await fetch('https://imp-test.pages.dev/api/products', { cache: 'no-cache' })
     return response.json()
 }
 

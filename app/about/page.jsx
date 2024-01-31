@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 export const runtime = 'edge'
 async function getAbout() {
-    const response = await fetch('http://localhost:3000/api/about', { cache: 'no-cache' }) 
+    const response = await fetch('https://imp-test.pages.dev/api/about', { cache: 'no-cache' }) 
     return response.json()
 }
 
